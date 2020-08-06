@@ -1,0 +1,10 @@
+﻿  maximum.cpp
+  reverse.cpp
+  search.cpp
+H:\algorithms_study\algorithm_Practice\strings\search.cpp(20,22): warning C4018: '<=': signed/unsigned mismatch
+H:\algorithms_study\algorithm_Practice\strings\search.cpp(22,22): warning C4018: '<': signed/unsigned mismatch
+H:\algorithms_study\algorithm_Practice\strings\search.cpp(39,25): warning C4018: '<': signed/unsigned mismatch
+H:\algorithms_study\algorithm_Practice\strings\search.cpp(39,46): warning C4018: '<': signed/unsigned mismatch
+H:\algorithms_study\algorithm_Practice\strings\search.cpp(95,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  Algorithm and Data Structures.vcxproj -> H:\algorithms_study\algorithm_Practice\Debug\Algorithm and Data Structures.exe

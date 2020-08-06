@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 /*
-* Given an array A of N integers, print each elememt in reverse order as a single line of space-separated integers. 
+* Given an array A of N integers, print each element in reverse order as a single line of space-separated integers. 
 * For optimization, we want to pass the vector by const ref. 
 */
 std::vector<int> print_reverse(const std::vector<int> &v ){
@@ -13,7 +13,7 @@ std::vector<int> print_reverse(const std::vector<int> &v ){
     //return the new reversed array of the contents of the vector that was passed. 
    return reverse; 
 }
-
+/*
 int main(int argc, char** argv)  {
     std::vector<int> v = {0,1,2,89,6,3,}; 
     std::vector<int> y ; 
@@ -22,3 +22,4 @@ int main(int argc, char** argv)  {
         std::cout << x << ", "; 
     return 0; 
 }
+*/

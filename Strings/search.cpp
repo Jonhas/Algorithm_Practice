@@ -89,10 +89,10 @@ void check_brute_force_no_backup(const std::string &text, const std::string &pat
 */
 void rabin_karp_algorith(const char text[], const char pattern[], int num_alphabet,int prime )
 {
-    int text_length = strlen(text); 
-    int pattern_length = strlen(pattern); 
+    const int text_length = strlen(text); 
+    const int pattern_length = strlen(pattern); 
     int pattern_hash = 0, text_hash = 0; 
-    int h = pow(num_alphabet, pattern_length) -1 % prime; 
+    const int h = pow(num_alphabet, pattern_length) -1 % prime; 
     //Calculate the hash value of pattern and first window of text 
     for(int i = 0; i < pattern_length; i++){
         pattern_hash = (num_alphabet * pattern_hash + pattern[i]) % prime; 
@@ -116,12 +116,11 @@ void rabin_karp_algorith(const char text[], const char pattern[], int num_alphab
         if(s < text_length - pattern_length){
             //hash the next window for the text. 
             text_hash = (num_alphabet * (text_hash - text[s+1]*h) + text[s+pattern_length+1])%prime; 
-
         }
     }
    
 }
-
+/*
 int main(int argc, char** argv){ 
     //Initializing the haystack
     std::ifstream ifstream("haystack.txt"); 
@@ -136,3 +135,4 @@ int main(int argc, char** argv){
     std::cout << '\n'; 
     return 0;
 }
+*/
