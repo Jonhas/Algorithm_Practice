@@ -132,7 +132,7 @@ int main(int argc, char** argv){
     check_brute_force_algorith(haystack, "attack at dawn"); 
     check_brute_force_no_backup(haystack, "attack at dawn");
     //Here, we are using 256 for one byte character set contains 256 characters. we use 101 since it is a prime number. 
-    rabin_karp_algorith("aaaaBBBBaaaBBBBaB","aBBBB" ,2,3); 
+    rabin_karp_algorith("aaaaBBBBaaaBBBBaB\0","aBBBB\0" ,2,3); 
     std::cout << '\n'; 
     return 0;
 }
