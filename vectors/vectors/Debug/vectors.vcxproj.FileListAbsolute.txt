@@ -1,0 +1,2 @@
+H:\algorithms_study\vectors\vectors\Debug\vectors.exe
+H:\algorithms_study\vectors\vectors\Debug\vectors.pdb

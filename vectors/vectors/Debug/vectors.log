@@ -1,0 +1,17 @@
+﻿  vectors.cpp
+H:\algorithms_study\vectors\vectors\vector.h(32,40): warning C4244: 'argument': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+H:\algorithms_study\vectors\vectors\vectors.cpp(67): message : see reference to function template instantiation 'T &Vector<T>::EmplaceBack<int,int,int>(int &&,int &&,int &&)' being compiled
+          with
+          [
+              T=Vector3
+          ]
+H:\algorithms_study\vectors\vectors\vectors.cpp(67): message : see reference to function template instantiation 'T &Vector<T>::EmplaceBack<int,int,int>(int &&,int &&,int &&)' being compiled
+          with
+          [
+              T=Vector3
+          ]
+  vectors.vcxproj -> H:\algorithms_study\vectors\vectors\Debug\vectors.exe

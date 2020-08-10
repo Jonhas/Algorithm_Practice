@@ -22,8 +22,3 @@ void reverse(std::string &str)
 		j--; 
 	}
 }
-
-int main(int argc, char** argv)
-{
-	
-}
